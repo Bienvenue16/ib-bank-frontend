@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Bank - Assistant virtuel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <h1>🏦 Assistant IB Bank</h1>
+            <p>Posez-nous vos questions sur nos services</p>
+        </div>
+
+        <!-- Zone de messages -->
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Bonjour ! Je suis l'assistant virtuel d'IB Bank. Comment puis-je vous aider aujourd'hui ?
+                </div>
+            </div>
+        </div>
+
+        <!-- Zone de saisie -->
+        <div class="chat-input">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Écrivez votre message..."
+                autocomplete="off"
+            >
+            <button id="sendButton">Envoyer</button>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
