@@ -1,4 +1,4 @@
-const API_URL = "https://ib-bank-backend.onrender.com";
+const API_URL = "https://ib-bank-backend.onrender.com/chat";
 
 const chatMessages = document.getElementById("chatMessages");
 const userInput = document.getElementById("userInput");
